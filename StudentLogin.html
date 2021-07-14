@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Silicon Institute Of Technology, Bhubaneswar</title>
+	<style type="text/css">
+	    input[type=text]:hover
+	    {
+	    	width: 100%;
+	    	background-color: black;
+	    	color: ghostwhite;
+	    }
+	    input[type=text]
+	    {
+	    	width: 50%;
+	    	transition: width 4s;
+	    }
+	    input[type=password]
+	    {
+	    	width: 50%;
+	    	transition: width 4s ;
+	    }
+
+	    input[type=password]:hover
+	    {
+	    	width: 100%;
+	    	height: 100%;
+	    	background-color: black;
+	    	color: ghostwhite;
+	    }
+		body
+		{
+			background-image: url('new.jpeg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 900px;
+			
+		}
+		button
+		{
+			background-color: blue;
+			width: 50%;
+			height: 20px;
+			transition: width 4s,height 3s,transform 3s;
+
+		}
+		button:hover
+		{
+			width: 100%;
+			height: 30px;
+			transform: rotate(360deg);
+		}
+		table
+		{
+			width:  400px;
+			border-style: groove;
+			border-radius: 10px;
+			border-color: ghostwhite ;
+			margin-top: 5%;
+			margin-left: 32%;
+			background-color: rgba(100,100,100,0.5);
+		}
+		.a1:hover 
+		{
+            background-color: darkred;
+
+        }
+        .x 
+		{
+            animation-name: name;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes name
+        {
+        	0%   {background-image: linear-gradient(to bottom left,black,midnightblue);}
+            25%  {background-image: radial-gradient(gold,black);}
+            50%  {background-image: linear-gradient(to bottom right,black,midnightblue)}
+            100% {background-image: radial-gradient(midnightblue ,gold )}
+        }
+        
+       
+	</style>
+</head>
+<body>
+	<header class="x" style="width: 100%; text-align: center;font-weight: bolder;color: ghostwhite;background-color: midnightblue;
+	font-size: 50px;padding-top: 10px;padding-bottom: 10px;position: sticky;top: 0;">
+          <img src="silicon1.jpg" style="height:50px;width:80px;">  SILICON INSTITUTE OF TECHNOLOGY
+	</header>
+	<form id="Login">
+		<table>
+			<tr>
+				<td colspan="2" style="color: ghostwhite;text-align: center;font-weight: bolder;font-size: 30px;">
+					LOGIN FORM
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align: center;color: ghostwhite;">
+					User Name :-
+				</td>
+				<td style="text-align:center;">
+					<input type="text" name="Username" required="username">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align: center;color: ghostwhite;">
+					Password :-
+				</td>
+				<td style="text-align:center;">
+					<input type="Password" name="Password" required="password">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">
+					<input type="checkbox" name="remember">
+					<label style="color:ghostwhite;">Remember me</label>
+				</td>
+
+				<td  style="text-align:center;">
+					<a href="#" class="a1" style="color:ghostwhite;">Forgot your passwod?</a>
+					
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align:center;">
+				<button><a href="PageHome.html" target="_self" style="color:ghostwhite;font-weight: bold;font-style: italic;">Login</a>
+				</button> 
+					
+					
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align:center;color: ghostwhite;">
+					OR
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">
+					<a href="https://www.facebook.com/">
+				<img src="toppng.com-login-with-facebook-button-png-facebook-login-button-transparent-431x83.png" style="height: 30px; width: 130px;">
+					</a>
+				</td>
+				<td style="text-align:center;">
+					<a href="https://www.google.com/">
+				<img src="sign-in-with-google-icon-3.jpg" style="height: 30px;width: 130px;">
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="color:ghostwhite; text-align: center;" >
+					Not a member?<a class="a1" href="#signup" style="color:ghostwhite;">Sign Up</a>
+				</td>
+			</tr>
+
+		</table>
+	</form>
+
+</body>
+</html>
