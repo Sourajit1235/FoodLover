@@ -85,6 +85,20 @@
         	animation-duration: 8s;
         	animation-direction:  alternate;
         }
+		.x 
+		{
+            animation-name: name;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes name
+        {
+        	0%   {background-image: linear-gradient(to bottom left,black,midnightblue);}
+            25%  {background-image: radial-gradient(gold,black);}
+            50%  {background-image: linear-gradient(to bottom right,black,midnightblue)}
+            100% {background-image: radial-gradient(midnightblue ,gold )}
+        }
         iframe
         {
         	transition: transform 2s;
@@ -100,7 +114,7 @@
 
 </head>
 <body style="margin : 0px">
-	<header>
+	<header class = "x">
           <img src="silicon1.jpg" style="height:50px;width:80px;">  SILICON INSTITUTE OF TECHNOLOGY
 	</header>
 	<section>
